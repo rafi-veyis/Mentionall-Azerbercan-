@@ -22,10 +22,10 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 
 
-ozel_list = [5070491162]
+
 anlik_calisan = []
 gece_tag = []
-grup_sayi = []
+
 
 #tektag
 @client.on(events.NewMessage(pattern='^(?i)/cancel'))
