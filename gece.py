@@ -47,7 +47,7 @@ async def start(event):
                       ],
                       [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/{USERNAME}?startgroup=a')],
                       [Button.url('📣 Support', f'https://t.me/{support}'),
-                       Button.url('📣 Kanal', f'https://t.me/{sahib}')]
+                       Button.url('👨‍💻 Sahib', f'https://t.me/{sahib}')]
                     ),
                     link_preview=False)
 
@@ -66,7 +66,7 @@ async def handler(event):
                       ],
                       [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/{USERNAME}?startgroup=a')],
                       [Button.url('📣 Support', f'https://t.me/{support}'),
-                       Button.url('📣 Kanal', f'https://t.me/{sahib}')]
+                       Button.url('👨‍💻 Sahib', f'https://t.me/{sahib}')]
                     ),
                     link_preview=False)
 
@@ -110,7 +110,7 @@ async def mentionall(event):
     await client.send_message(event.chat_id, "❄️ User tağ eləmə başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                      Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -124,7 +124,7 @@ async def mentionall(event):
         await event.respond("⛔ Tağ işləmi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -169,7 +169,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, "❄️ Admin tağ eləmək başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -183,7 +183,7 @@ async def mentionalladmin(event):
         await event.respond("⛔ Admin tağ eləmək durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -228,7 +228,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, "❄️ Tək-Tək Tağ Başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -242,7 +242,7 @@ async def tektag(event):
         await event.respond("⛔ Tək Tək Tağ Prosesi Dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -300,7 +300,7 @@ async def etag(event):
     await client.send_message(event.chat_id, "❄️ Emoji tağ başlandı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -314,7 +314,7 @@ async def etag(event):
         await event.respond("⛔ Emoji tağ durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -390,7 +390,7 @@ async def stag(event):
     await client.send_message(event.chat_id, "❄️ Söz ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/{support}')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -404,7 +404,7 @@ async def stag(event):
         await event.respond("⛔ Söz ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/{support}')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -450,7 +450,7 @@ async def rtag(event):
     await client.send_message(event.chat_id, "❄️ Rəng ilə tağ başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -464,7 +464,7 @@ async def rtag(event):
         await event.respond("⛔ Rəng tağ durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', 'https://t.me/FlamingoResmi')
+                       Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -478,40 +478,7 @@ async def rtag(event):
     
 #########################
 
-@client.on(events.NewMessage())
-async def mentionalladmin(event):
-  global grup_sayi
-  if event.is_group:
-    if event.chat_id in grup_sayi:
-      pass
-    else:
-      grup_sayi.append(event.chat_id)
 
-# istatistik 
-@client.on(events.NewMessage(pattern='^/botstatik ?(.*)'))
-async def son_durum(event):
-    global anlik_calisan,grup_sayi,ozel_list
-    sender = await event.get_sender()
-    if sender.id not in ozel_list:
-      return
-    await event.respond(f"**Gece kuşu Tagger İstatistikleri 🤖**\n\nToplam Grup: `{len(grup_sayi)}`\nAnlık Çalışan Grup: `{len(anlik_calisan)}`")
-
-# broadcast 
-@client.on(events.NewMessage(pattern='^/botreklam ?(.*)'))
-async def duyuru(event):
- 
-  global grup_sayi,ozel_list
-  sender = await event.get_sender()
-  if sender.id not in ozel_list:
-    return
-  reply = await event.get_reply_message()
-  await event.respond(f"Toplam {len(grup_sayi)} Gruba'a mesaj gönderiliyor...")
-  for x in grup_sayi:
-    try:
-      await client.send_message(x,f"**📣 Sponsor**\n\n{reply.message}")
-    except:
-      pass
-  await event.respond(f"Gönderildi.")
 
 
 
