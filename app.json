@@ -24,19 +24,19 @@
       },    
       "LOG_QRUP": {
          "description": "log grubun id",
-         "value": "-1001682964939"
+         "value": ""
       },
       "USERNAME": {
          "description": "Botun kullanıcı adı yazınız @ işarəsi olmadan",
-         "value": "mutsuz_panda"
+         "value": ""
       },
       "sahib": {
          "description": "Kendi kullanıcı adınızı yazınız @ işarəsi olmadan",
-         "value": "FlamingoResmi"
+         "value": ""
       },      
       "support": {
          "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işarəsi olmadan yazın",
-         "value": "FlamingoSupport"
+         "value": ""
       },
       "startmesaj": {
          "description": "Bota start verilince mesajınız",
@@ -50,13 +50,7 @@
       "komutlar": {
          "description": "Yardım menüsü",
          "value": "Kömək Menyusuna Xoş gəldin 🗽
-/all <səbəb> - Hər kəsi mesajda 5 tağ olmaqla tağ edər
-/admin <səbəb> - Adminləri mesajda 1 tağ olmaqla tağ edər
-/tektag <səbəb> - Hər kəsi mesajda 1 tağ olmaqla tağ edər
-/etag  <səbəb> - Hər kəsi mesajda 5 emoji olmaqla emojilərlə tağ edər
-/rtag  <səbəb> - İstifadəçiləri rənglərlə etiketləyirəm
-/cancel - Tağ Prosesini Sonlandırar
-❕ Bu əmrlərdən yalnız idarəçilər istifadə edə bilər. ✨"
+/all <səbəb> - Hər kəsi mesajda 5 tağ olmaqla tağ edər\n/admin <səbəb> - Adminləri mesajda 1 tağ olmaqla tağ edər\n/tektag <səbəb> - Hər kəsi mesajda 1 tağ olmaqla tağ edər\n/etag  <səbəb> - Hər kəsi mesajda 5 emoji olmaqla emojilərlə tağ edər\n/rtag  <səbəb> - İstifadəçiləri rənglərlə etiketləyirəm\n/cancel - Tağ Prosesini Sonlandırar\n❕ Bu əmrlərdən yalnız idarəçilər istifadə edə bilər. ✨"
       }
 
       
