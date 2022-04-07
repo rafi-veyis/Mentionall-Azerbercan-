@@ -1,0 +1,64 @@
+{
+      "name": "Tagger bot",
+      "description": "Gece kuşu tagger",
+      "keywords": [
+         "telegram",
+         "tagger",
+         "group",
+         "mutsuz_panda",
+         "Richard_Ramirezzblog"
+      ],   
+   "repository": "https://github.com/Gecekus/tagv6",
+   "env": {
+      "TOKEN": {
+         "description": "Botunuzun tokenini bura yazın",
+         "value": ""
+      },
+      "APP_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "my.telegram.org adresindən API HASH alın",
+         "value": ""
+      },    
+      "LOG_QRUP": {
+         "description": "log grubun id",
+         "value": "-1001682964939"
+      },
+      "USERNAME": {
+         "description": "Botun kullanıcı adı yazınız @ işarəsi olmadan",
+         "value": "mutsuz_panda"
+      },
+      "sahib": {
+         "description": "Kendi kullanıcı adınızı yazınız @ işarəsi olmadan",
+         "value": "FlamingoResmi"
+      },      
+      "support": {
+         "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işarəsi olmadan yazın",
+         "value": "FlamingoSupport"
+      },
+      "startmesaj": {
+         "description": "Bota start verilince mesajınız",
+         "value": "**Salam** __Çox funksiyalı tağ botu
+❗Qrupda Admin Etmək Vacibdir ★__"
+      },
+      "qrupstart": {
+         "description": "Grupta start verildiği zaman mesajınız",
+         "value": "✅ **Mən Aktivəm !** 🕊️ **Əmrləri görmək üçün pm-ə baxa bilərsiniz.**"
+      },
+      "komutlar": {
+         "description": "Yardım menüsü",
+         "value": "Kömək Menyusuna Xoş gəldin 🗽
+/all <səbəb> - Hər kəsi mesajda 5 tağ olmaqla tağ edər
+/admin <səbəb> - Adminləri mesajda 1 tağ olmaqla tağ edər
+/tektag <səbəb> - Hər kəsi mesajda 1 tağ olmaqla tağ edər
+/etag  <səbəb> - Hər kəsi mesajda 5 emoji olmaqla emojilərlə tağ edər
+/rtag  <səbəb> - İstifadəçiləri rənglərlə etiketləyirəm
+/cancel - Tağ Prosesini Sonlandırar
+❕ Bu əmrlərdən yalnız idarəçilər istifadə edə bilər. ✨"
+      }
+
+      
+    } 
+ }
