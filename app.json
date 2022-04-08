@@ -40,8 +40,7 @@
       },
       "startmesaj": {
          "description": "Bota start verilince mesajınız",
-         "value": "**Salam** __Çox funksiyalı tağ botu
-❗Qrupda Admin Etmək Vacibdir ★__"
+         "value": "**Salam** __Çox funksiyalı tağ botu\n❗Qrupda Admin Etmək Vacibdir ★__"
       },
       "qrupstart": {
          "description": "Grupta start verildiği zaman mesajınız",
@@ -49,8 +48,7 @@
       },
       "komutlar": {
          "description": "Yardım menüsü",
-         "value": "Kömək Menyusuna Xoş gəldin 🗽
-/all <səbəb> - Hər kəsi mesajda 5 tağ olmaqla tağ edər\n/admin <səbəb> - Adminləri mesajda 1 tağ olmaqla tağ edər\n/tektag <səbəb> - Hər kəsi mesajda 1 tağ olmaqla tağ edər\n/etag  <səbəb> - Hər kəsi mesajda 5 emoji olmaqla emojilərlə tağ edər\n/rtag  <səbəb> - İstifadəçiləri rənglərlə etiketləyirəm\n/cancel - Tağ Prosesini Sonlandırar\n❕ Bu əmrlərdən yalnız idarəçilər istifadə edə bilər. ✨"
+         "value": "Kömək Menyusuna Xoş gəldin 🗽\n/all <səbəb> - Hər kəsi mesajda 5 tağ olmaqla tağ edər\n/admin <səbəb> - Adminləri mesajda 1 tağ olmaqla tağ edər\n/tektag <səbəb> - Hər kəsi mesajda 1 tağ olmaqla tağ edər\n/etag  <səbəb> - Hər kəsi mesajda 5 emoji olmaqla emojilərlə tağ edər\n/rtag  <səbəb> - İstifadəçiləri rənglərlə etiketləyirəm\n/cancel - Tağ Prosesini Sonlandırar\n❕ Bu əmrlərdən yalnız idarəçilər istifadə edə bilər. ✨"
       }
 
       
