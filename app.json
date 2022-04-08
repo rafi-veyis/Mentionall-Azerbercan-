@@ -1,14 +1,14 @@
 {
       "name": "Tagger bot",
-      "description": "Gece kuşu tagger",
+      "description": "Yarasa tagger",
       "keywords": [
          "telegram",
          "tagger",
          "group",
-         "mutsuz_panda",
-         "Richard_Ramirezzblog"
+         "xtq_bakavoy",
+         "Yupiterblogg"
       ],   
-   "repository": "https://github.com/amahocam/Mentionall-Azerbercan-",
+   "repository": "https://github.com/XTQ067/Mentionall-Azerbercan-",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
